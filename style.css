@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+body * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 90%;
+    margin-top: 35px;
+    border: 1px solid black; 
+}
+
+.add-new-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 25px;
+    border: none;
+    flex-wrap: wrap;
+}
+
+.list-and-buttons {
+    display: flex;
+}
+
+.complete-btn {
+    margin-left: 10px;
+    padding: 4px;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    border: 1px solid black;
+    min-width: 75%;
+    margin-top: 25px;
+}
+
+.clear-list-btn {
+    margin-bottom: 25px;
+    margin-top: 25px; 
+    padding: 7px;
+    border-radius: 8%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 35px;
+    width: 75%;
+}
+
+.add-task-btn {
+    padding: 5px;
+    border-radius: 10%; 
+}
+
+#new-task {
+    height: 95%;
+}
+
+
+
